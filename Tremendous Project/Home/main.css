@@ -1,0 +1,213 @@
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Fuzzy Bubbles', cursive;
+    background-image: url("str.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right 500px  ;
+    
+    color: black;
+    background-color: white;
+    
+    
+}
+::selection {
+    background-color: #9c8321;
+}
+
+ul {
+    list-style-type: none;
+    border-bottom: 1px solid;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    padding-left: 25%;
+    
+    
+
+    
+}
+p {
+    text-align: center;
+    margin: 0 auto;
+}
+a {
+    color:#9c8321;
+    text-decoration: none;
+}
+.ptext {
+    color:#9c8321;
+    
+}
+li {
+    float: left;
+}
+li a {
+    padding: 16px 14px;
+    font-size: 22px;
+    display: block;
+    text-decoration: none;
+    transition: ease 0.4s all;
+}
+li a:hover {
+
+    outline: 1px solid;
+
+
+}
+   .main {
+    margin: 5%;
+    border: 1px solid;
+    margin-right: 2%;
+   } 
+
+.logo {
+    padding: 16px 14px ;
+    font-size: 22px;
+    float: left;
+    font-family: 'Fuzzy Bubbles', cursive;
+    border-bottom: 1px solid;
+}
+.right {
+    padding: 30px;
+    
+    padding-right: 50%;
+    margin-top: 0%;
+    
+}
+.right h1 {
+    font-size: 400%;
+}
+#num {
+    color: #9c8321;
+}
+
+
+.button button {
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 2em;
+    cursor: pointer;
+    margin: 5%;
+    transition: ease 0.4s all;
+    
+    
+}
+.button {
+    text-align: center;
+    
+}
+.button button:hover {
+    background-color: white;
+    color: #9c8321;
+}
+h1 {
+    font-size: 80px;
+}
+.h1Container {
+    font-size: 80px;
+    padding: 30px;
+    
+
+}
+
+
+.h1 {
+    border: 3px solid ;
+    
+    
+}
+#darkButton {
+    border: 1px solid ;
+    border-radius: 1.4em;
+    cursor: pointer;
+    padding: 16px 14px;
+    font-size: 22px;
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    transition: ease 0.4s all;
+    color:#9c8321;
+}
+#darkButton:hover{ 
+    background-color:#9c8321 ;
+    color: white;
+}
+.footer {
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+}
+.footers {
+    padding: 20px;
+    border: 1px solid;
+    text-align: center;
+    transition: ease 0.4s all;
+}
+
+.footers:hover {
+    background-color:#9c8321 ;
+    color: white;
+    cursor: pointer;
+}
+@media screen and (max-width:900px) {
+    body {
+        background-position: center  ;
+        background-image: none;
+    }
+    
+    .logo {
+        float: initial;
+        text-align: center;
+        
+    }
+    ul {
+        float: none;
+        text-align: center;
+        position: relative;
+        padding-left: 0%;
+        border-bottom: none;
+    }
+    li {
+        display: inline-block;
+        float: initial;
+    }
+    li a {
+        margin: 0 auto;
+    }
+    .h1 {
+        font-size: 50%;
+        text-align: center;
+    }
+    .right {
+        float: none;
+        text-align: center;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .footer {
+        grid-template-columns: auto;
+        text-align: center;
+        position: relative;
+    }
+    .right h1 {
+        font-size: 300%;
+    }
+    .button button {
+        width: 80%;
+    }
+}
+@media screen and (min-height:1000px){
+    .footer { 
+        position: fixed;
+    }
+
+    
+}

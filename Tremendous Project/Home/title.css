@@ -1,0 +1,43 @@
+body {
+    background-image: none;
+    
+    
+    
+    
+}
+
+ul { 
+    border-bottom:  1px solid;
+}
+
+.gridCon{
+    display: grid;
+    grid-template-columns: auto auto;
+    border:3px solid;
+    margin:5%;
+    padding: 5%;
+   
+
+}
+
+.grid {
+    margin: 5%;
+    padding: 5%;
+    font-size: 23px;
+    border: 1px solid;
+    
+}
+h2 {
+    border: 1px solid ;
+    text-align: center;
+}
+a {
+    color:#9c8321;
+    text-decoration: none;
+}
+
+@media screen and (max-width:900px) {
+    .gridCon{
+        grid-template-columns: auto;    }
+    
+}
